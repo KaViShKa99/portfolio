@@ -1,0 +1,65 @@
+[
+  
+  {
+    "name": "Jart-cafe",
+    "desc": "This e-commerce website allows customers to order artworks based on their opinions and integrates a payment gateway for secure transactions.",
+    "image": ["jart1","jart3","jart4"],
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/KaViShKa99/Jart-cafe-frontend"
+    }
+  },
+  {
+    "name": "XDO Noise",
+    "desc": "This research project involves developing a new adversarial attack to deceive face recognition models and identifying vulnerabilities in these systems.",
+    "image": ["xdo1","xdo2","xdo3","xdo4","xdo5"],
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/KaViShKa99/XDONoise-frontend"
+    }
+  },
+  {
+    "name": "ATM Fraud Detection System",
+    "desc": "This system analyzes facial expressions, utilizes face recognition, and detects weapons to prevent ATM fraud.",
+    "image": ["s1","s2","s3","s4"],
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/secureATM/secureATM-frontend"
+    }
+  },
+  {
+    "name": "G-POS",
+    "desc": "This POS system notifies users when stock reaches a minimum level, prints bills, and includes an admin panel for management.",
+    "image": ["p1","p2","p3","p4","p5"],
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": "https://github.com/KaViShKa99/pos-frontend"
+    }
+  },
+  {
+    "name": "mr detective",
+    "desc": "This web application allows users to search for a URL to determine whether it is safe or malicious.",
+    "image": ["m1","m2","m3","m4"],
+    "category": "lamp",
+    "links": {
+      "view": "",
+      "code": "https://github.com/Anti-Phish/phishing-checker-frontend"
+    }
+  },
+  {
+    "name": "weather app ios",
+    "desc": "Search locations by name to check current weather and discover popular attractions.",
+    "image": ["w1","w2","w3","w4","w5"],
+    "category": "ios",
+    "links": {
+      "view": "",
+      "code": "https://github.com/KaViShKa99/Weather-app-ios"
+    }
+  }
+  
+  
+]
