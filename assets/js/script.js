@@ -139,7 +139,7 @@ function showProjects(projects) {
         projectHTML += `
         <div class="box tilt" >
         <div class="image-overlay" >
-            <img draggable="false" src="/assets/images/projects/${images[0]}.png" alt="project" />
+            <img draggable="false" src="https://kavishka99.github.io/portfolio/assets/images/projects/${images[0]}.png" alt="project" />
         </div>
             <div class="content">
                 <div class="tag">
