@@ -131,11 +131,11 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-
+console.log(projects);
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         // Ensure project.images exists and is an array
         let images = Array.isArray(project.image) ? project.image : [project.image];
-        console.log("https://kavishka99.github.io/portfolio/assets/images/projects/${images[0]}.png")
+        console.log("https://kavishka99.github.io/portfolio/assets/images/projects/${images[0]}.png");
         projectHTML += `
         <div class="box tilt" >
         <div class="image-overlay" >
