@@ -135,7 +135,6 @@ console.log(projects);
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         // Ensure project.images exists and is an array
         let images = Array.isArray(project.image) ? project.image : [project.image];
-        console.log("https://kavishka99.github.io/portfolio/assets/images/projects/${images[0]}.png");
         projectHTML += `
         <div class="box tilt" >
         <div class="image-overlay" >
@@ -181,7 +180,7 @@ console.log(projects);
         document.documentElement.classList.toggle('no-scroll');
         header.style.display = "none"
         modalSlides.innerHTML = images.map(image => `
-            <img src="/assets/images/projects/${image}.png" alt="project image" draggable="false" style="display:none;" />
+            <img src="https://kavishka99.github.io/portfolio/assets/images/projects/${image}.png" alt="project image" draggable="false" style="display:none;" />
         `).join("");
         modal.style.display = "block";
         slideIndex = 0;
